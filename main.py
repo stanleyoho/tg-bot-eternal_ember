@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 import os
-TOKEN = os.environ['TELEGRAM_TOKEN']
+TOKEN = os.environ['token']
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # 回复使用者 /start 命令
