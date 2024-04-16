@@ -1,7 +1,5 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
-import os
-TOKEN = os.environ['token']
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # 回复使用者 /start 命令
@@ -21,7 +19,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 def main():
     # 創建應用實例並插入你的機器人 Token
-    application = application = Application.builder().token(TOKEN).build()
+    application = Application.builder().token('6416422192:AAGE1lu4lNHEycWNRsF_oTjpySdhj7XFtx4').build()
 
     # 添加 /start 命令處理器
     start_handler = CommandHandler('start', start)
