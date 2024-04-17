@@ -1,7 +1,7 @@
 # tg-bot-eternal_ember
 
-##command list 
+## command list 
 
-- /officeal_document 官方文件
-- /tips_level_upgrade 升級攻略
-- /tips_equipment 裝備攻略
+- official_document - 官方文件
+- level_upgrade_tips - 升級攻略
+- equipment_tips - 裝備攻略
